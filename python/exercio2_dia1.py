@@ -1,0 +1,12 @@
+print('Olá, qual é o seu nome?')
+user_name = input()
+print(f'{user_name} qual ano você está na escola?')
+user_year = input()
+print('Qual foi a nota do seu 1o trimestre?')
+user_first = input()
+print('Qual foi a nota do seu 2o trimestre?')
+user_second = input()
+print('Qual foi a nota do seu 3o trimestre?')
+user_third = input()
+user_media = (float(user_first) + float(user_second) + float(user_third)) / 3
+print(f"{user_name}, você está no ano {user_year} e a sua media final é {user_media:.2f}")
